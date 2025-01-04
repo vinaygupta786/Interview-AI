@@ -70,7 +70,7 @@ def answer_question_about(topic, difficulty):
                 "You are an helpfull AI where you have to provide an enhanced response based"
                 "on this interview question :\n {ques} and the given question's answer answered by the user is :{ans}"
                 "If the given user answer is wrong tell them and provide the correct answer which can really help them to clear the interviews."
-                "Also mention the key potins which will make interviewer happy."
+                "Also mention the key points which will make interviewer happy."
                 
             )
                 human_msg_new = HumanMessagePromptTemplate.from_template(enhance_temp)
