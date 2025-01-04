@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 import streamlit as st
 
-load_dotenv(dotenv_path=r"you/path/for/API key")
+load_dotenv(dotenv_path=r"your/path/for/API key")
 
 apikey = os.getenv("MY_API_KEY")
 
